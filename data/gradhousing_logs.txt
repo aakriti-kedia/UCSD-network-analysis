@@ -1,0 +1,78 @@
+aakritik@Aakritis-MacBook-Pro UCSD-network-analysis % ping ucsd.edu
+PING ucsd.edu (99.83.137.54): 56 data bytes
+64 bytes from 99.83.137.54: icmp_seq=0 ttl=118 time=12.198 ms
+64 bytes from 99.83.137.54: icmp_seq=1 ttl=118 time=11.926 ms
+64 bytes from 99.83.137.54: icmp_seq=2 ttl=118 time=12.820 ms
+64 bytes from 99.83.137.54: icmp_seq=3 ttl=118 time=19.655 ms
+64 bytes from 99.83.137.54: icmp_seq=4 ttl=118 time=12.161 ms
+64 bytes from 99.83.137.54: icmp_seq=5 ttl=118 time=12.811 ms
+64 bytes from 99.83.137.54: icmp_seq=6 ttl=118 time=19.814 ms
+64 bytes from 99.83.137.54: icmp_seq=7 ttl=118 time=20.338 ms
+^C
+--- ucsd.edu ping statistics ---
+8 packets transmitted, 8 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 11.926/15.215/20.338/3.672 ms
+aakritik@Aakritis-MacBook-Pro UCSD-network-analysis % ping ieng6.ucsd.edu
+PING ieng6.ucsd.edu (128.54.70.238): 56 data bytes
+64 bytes from 128.54.70.238: icmp_seq=0 ttl=50 time=12.382 ms
+64 bytes from 128.54.70.238: icmp_seq=1 ttl=50 time=19.329 ms
+64 bytes from 128.54.70.238: icmp_seq=2 ttl=50 time=20.347 ms
+64 bytes from 128.54.70.238: icmp_seq=3 ttl=50 time=120.662 ms
+64 bytes from 128.54.70.238: icmp_seq=4 ttl=50 time=14.113 ms
+64 bytes from 128.54.70.238: icmp_seq=5 ttl=50 time=19.802 ms
+64 bytes from 128.54.70.238: icmp_seq=6 ttl=50 time=20.302 ms
+64 bytes from 128.54.70.238: icmp_seq=7 ttl=50 time=20.162 ms
+64 bytes from 128.54.70.238: icmp_seq=8 ttl=50 time=12.305 ms
+64 bytes from 128.54.70.238: icmp_seq=9 ttl=50 time=19.797 ms
+64 bytes from 128.54.70.238: icmp_seq=10 ttl=50 time=20.652 ms
+64 bytes from 128.54.70.238: icmp_seq=11 ttl=50 time=19.641 ms
+64 bytes from 128.54.70.238: icmp_seq=12 ttl=50 time=20.506 ms
+64 bytes from 128.54.70.238: icmp_seq=13 ttl=50 time=20.642 ms
+64 bytes from 128.54.70.238: icmp_seq=14 ttl=50 time=19.404 ms
+64 bytes from 128.54.70.238: icmp_seq=15 ttl=50 time=20.544 ms
+64 bytes from 128.54.70.238: icmp_seq=16 ttl=50 time=20.215 ms
+^C
+--- ieng6.ucsd.edu ping statistics ---
+17 packets transmitted, 17 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 12.305/24.753/120.662/24.136 ms
+aakritik@Aakritis-MacBook-Pro UCSD-network-analysis % traceroute ucsd.edu
+traceroute: Warning: ucsd.edu has multiple addresses; using 99.83.137.54
+traceroute to ucsd.edu (99.83.137.54), 64 hops max, 52 byte packets
+ 1  rrcs-24-43-123-66.west.biz.rr.com (24.43.123.66)  12.479 ms  5.102 ms  4.260 ms
+ 2  rrcs-24-43-133-225.west.biz.rr.com (24.43.133.225)  3.487 ms  5.616 ms  4.121 ms
+ 3  24.43.183.98 (24.43.183.98)  12.892 ms  12.549 ms  10.524 ms
+ 4  lag-20.sndhcaax02r.netops.charter.com (72.129.1.88)  12.083 ms  11.343 ms  14.900 ms
+ 5  lag-22.tustcaft01r.netops.charter.com (72.129.1.2)  10.958 ms  11.129 ms  11.508 ms
+ 6  lag-46.tustca4200w-bcr00.netops.charter.com (209.18.43.72)  11.746 ms
+    lag-16.tustca4200w-bcr00.netops.charter.com (66.109.6.64)  34.079 ms
+    lag-36.tustca4200w-bcr00.netops.charter.com (66.109.6.202)  12.931 ms
+ 7  lag-801.pr2.lax00.netops.charter.com (66.109.5.247)  15.574 ms  13.135 ms
+    lag-1.pr2.lax00.netops.charter.com (107.14.19.27)  14.032 ms
+ 8  99.82.176.52 (99.82.176.52)  9.630 ms
+    99.82.176.54 (99.82.176.54)  11.980 ms
+    99.83.70.220 (99.83.70.220)  9.862 ms
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * *^C
+aakritik@Aakritis-MacBook-Pro UCSD-network-analysis % traceroute ieng6.ucsd.edu
+traceroute to ieng6.ucsd.edu (128.54.70.238), 64 hops max, 52 byte packets
+ 1  rrcs-24-43-123-66.west.biz.rr.com (24.43.123.66)  4.415 ms  4.087 ms  5.390 ms
+ 2  rrcs-24-43-133-225.west.biz.rr.com (24.43.133.225)  3.581 ms  4.153 ms  3.633 ms
+ 3  24.43.183.98 (24.43.183.98)  23.961 ms  15.880 ms  10.035 ms
+ 4  lag-20.sndhcaax02r.netops.charter.com (72.129.1.88)  13.719 ms  14.670 ms  16.192 ms
+ 5  lag-22.tustcaft01r.netops.charter.com (72.129.1.2)  11.540 ms  11.919 ms  10.619 ms
+ 6  lag-26.tustca4200w-bcr00.netops.charter.com (66.109.3.232)  10.646 ms
+    lag-46.tustca4200w-bcr00.netops.charter.com (209.18.43.72)  11.689 ms
+    lag-26.tustca4200w-bcr00.netops.charter.com (66.109.3.232)  11.118 ms
+ 7  lag-2.pr2.lax10.netops.charter.com (66.109.3.19)  18.715 ms
+    lag-1.pr2.lax10.netops.charter.com (66.109.5.241)  11.459 ms  11.767 ms
+ 8  eqix-la2.cenic.net (206.223.123.95)  11.829 ms  19.614 ms  11.422 ms
+ 9  dc-lax-agg8--lax-agg10-300g.cenic.net (137.164.11.71)  17.555 ms  14.044 ms  15.603 ms
+10  dc-tus-agg8--lax-agg8-300g.cenic.net (137.164.11.83)  14.244 ms  14.600 ms  15.040 ms
+11  sand1-agg-01--tus-agg8--300g--01.cenic.net (137.164.11.85)  12.918 ms  13.204 ms  12.292 ms
+12  ucsd--sand1-agg-01--100g--01.cenic.net (137.164.23.177)  14.057 ms  14.036 ms  15.058 ms
+13  nodem-core-6807-vlan2761-gw.ucsd.edu (132.239.254.163)  15.247 ms  13.595 ms  14.075 ms
+14  adcom-7710-3-adcom-router-3-m-core-vlan935-gw.ucsd.edu (169.228.234.5)  14.527 ms  14.722 ms  14.123 ms
+15  ieng6.ucsd.edu (128.54.70.238)  12.083 ms !Z  11.630 ms !Z  12.176 ms !Z
