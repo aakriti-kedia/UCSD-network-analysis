@@ -1,0 +1,151 @@
+-----------------------------------------------------------
+HOST NAME: downtown
+Friday, 26-May-23 13:01:26 PDT
+
+ucsd.edu:
+....................Ping request could not find host ucsd.edu. Please check the name and try again.
+Unable to resolve target system name ucsd.edu.
+
+ieng6.ucsd.edu:
+....................Ping request could not find host ieng6.ucsd.edu. Please check the name and try again.
+Unable to resolve target system name ieng6.ucsd.edu.
+-----------------------------------------------------------
+HOST NAME: downtown
+Friday, 26-May-23 13:02:31 PDT
+
+ucsd.edu:
+....................
+Pinging ucsd.edu [99.83.137.54] with 32 bytes of data:
+Reply from 99.83.137.54: bytes=32 time=47ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=151ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=75ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=80ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=57ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=43ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=66ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=104ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=102ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=73ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=74ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=56ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=44ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=74ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=58ms TTL=118
+
+Ping statistics for 99.83.137.54:
+    Packets: Sent = 15, Received = 15, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 43ms, Maximum = 151ms, Average = 73ms
+
+Tracing route to ucsd.edu [99.83.137.54]
+over a maximum of 30 hops:
+
+  1     4 ms     3 ms     2 ms  192.168.154.227 
+  2    43 ms    30 ms    54 ms  172.26.96.161 
+  3    40 ms    40 ms    41 ms  107.72.233.28 
+  4    69 ms    39 ms    48 ms  12.83.188.161 
+  5    74 ms    32 ms    38 ms  12.83.179.49 
+  6    56 ms    29 ms    28 ms  la2ca408me9.ip.att.net [12.122.128.133] 
+  7    60 ms    45 ms    33 ms  12.245.156.58 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13    76 ms    37 ms    36 ms  acb2b7f80f439100a.awsglobalaccelerator.com [99.83.137.54] 
+
+Trace complete.
+
+ieng6.ucsd.edu:
+....................
+Pinging ieng6.ucsd.edu [128.54.70.238] with 32 bytes of data:
+Reply from 128.54.70.238: bytes=32 time=46ms TTL=48
+Reply from 128.54.70.238: bytes=32 time=39ms TTL=48
+Reply from 128.54.70.238: bytes=32 time=44ms TTL=48
+Reply from 128.54.70.238: bytes=32 time=51ms TTL=48
+Reply from 128.54.70.238: bytes=32 time=47ms TTL=48
+Reply from 128.54.70.238: bytes=32 time=92ms TTL=48
+Reply from 128.54.70.238: bytes=32 time=48ms TTL=48
+Reply from 128.54.70.238: bytes=32 time=41ms TTL=48
+Reply from 128.54.70.238: bytes=32 time=44ms TTL=48
+Reply from 128.54.70.238: bytes=32 time=60ms TTL=48
+Reply from 128.54.70.238: bytes=32 time=49ms TTL=48
+Reply from 128.54.70.238: bytes=32 time=50ms TTL=48
+Reply from 128.54.70.238: bytes=32 time=274ms TTL=48
+Reply from 128.54.70.238: bytes=32 time=57ms TTL=48
+Reply from 128.54.70.238: bytes=32 time=44ms TTL=48
+
+Ping statistics for 128.54.70.238:
+    Packets: Sent = 15, Received = 15, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 39ms, Maximum = 274ms, Average = 65ms
+
+Tracing route to ieng6.ucsd.edu [128.54.70.238]
+over a maximum of 30 hops:
+
+  1     6 ms     9 ms     3 ms  192.168.154.227 
+  2    53 ms    28 ms    27 ms  172.26.96.161 
+  3    67 ms    44 ms    40 ms  107.72.233.28 
+  4    66 ms    39 ms    40 ms  12.83.188.161 
+  5    62 ms    47 ms    36 ms  12.83.179.49 
+  6    45 ms    31 ms    47 ms  12.123.132.137 
+  7    92 ms    63 ms    70 ms  192.205.37.146 
+  8     *        *        *     Request timed out.
+  9    76 ms    51 ms    37 ms  CENIC.ear1.LosAngeles1.Level3.net [4.35.156.66] 
+ 10    56 ms    38 ms    47 ms  dc-lax-agg8--lax-agg10-300g.cenic.net [137.164.11.71] 
+ 11    54 ms    49 ms    45 ms  dc-tus-agg8--lax-agg8-300g.cenic.net [137.164.11.83] 
+ 12    78 ms    43 ms    39 ms  sand1-agg-01--tus-agg8--300g--01.cenic.net [137.164.11.85] 
+ 13    47 ms    40 ms    37 ms  ucsd--sand1-agg-01--100g--01.cenic.net [137.164.23.177] 
+ 14    60 ms    55 ms    32 ms  nodem-core-6807-vlan2761-gw.ucsd.edu [132.239.254.163] 
+ 15    70 ms    38 ms    42 ms  adcom-7710-3-adcom-router-3-m-core-vlan935-gw.ucsd.edu [169.228.234.5] 
+ 16    57 ms    31 ms    42 ms  ieng6.ucsd.edu [128.54.70.238] 
+
+Trace complete.
+-----------------------------------------------------------
+HOST NAME: downtown
+Friday, 26-May-23 13:06:10 PDT
+
+ucsd.edu:
+....................
+Pinging ucsd.edu [99.83.137.54] with 32 bytes of data:
+Reply from 99.83.137.54: bytes=32 time=64ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=40ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=56ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=94ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=36ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=55ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=45ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=34ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=65ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=39ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=57ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=70ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=71ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=70ms TTL=118
+Reply from 99.83.137.54: bytes=32 time=44ms TTL=118
+
+Ping statistics for 99.83.137.54:
+    Packets: Sent = 15, Received = 15, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 34ms, Maximum = 94ms, Average = 56ms
+
+Tracing route to ucsd.edu [99.83.137.54]
+over a maximum of 30 hops:
+
+  1     2 ms     2 ms     5 ms  192.168.154.227 
+  2    31 ms    27 ms    32 ms  172.26.96.161 
+  3    39 ms    23 ms    29 ms  107.72.233.28 
+  4    72 ms    43 ms    27 ms  12.83.188.161 
+  5    68 ms    31 ms    55 ms  12.83.179.49 
+  6    68 ms    47 ms    31 ms  la2ca408me9.ip.att.net [12.122.128.133] 
+  7    42 ms    39 ms    27 ms  12.245.156.58 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *     General failure.
+
+Trace complete.
+
+ieng6.ucsd.edu:
+....................Ping request could not find host ieng6.ucsd.edu. Please check the name and try again.
+Unable to resolve target system name ieng6.ucsd.edu.
