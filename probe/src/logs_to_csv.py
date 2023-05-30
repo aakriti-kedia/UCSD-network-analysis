@@ -71,15 +71,18 @@ def write_to_csv(out_filepath, output_rows, date, log_name, from_ip, write_mode)
         for row in output_rows:
             writer.writerow([date, log_name, from_ip, *row])
 
-
-def main(logs, write_mode, out):
+""" 
+logs - List of Tuples of format (date, log_name, from_ip) 
+write_mode - Boolean. If true, it will erase output_filepath and rewrite it. Else just append it
+"""
+def main(logs, write_mode, output_filepath):
     initial_mode = write_mode # so that write mode is on only for first file
     for (date, log_name, from_ip) in logs:
         file_path = f"logs/{log_name}.log"
         output_rows = process_file(file_path)
         if len(output_rows) == 0:
             print(f"WARNING: No csv rows found from {file_path}")
-        write_to_csv(out, output_rows, date, log_name, from_ip, initial_mode)
+        write_to_csv(output_filepath, output_rows, date, log_name, from_ip, initial_mode)
         initial_mode = False
 
 if __name__ == "__main__":
