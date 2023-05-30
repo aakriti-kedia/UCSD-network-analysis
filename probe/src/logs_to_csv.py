@@ -74,6 +74,7 @@ def write_to_csv(out_filepath, output_rows, date, log_name, from_ip, write_mode)
 """ 
 logs - List of Tuples of format (date, log_name, from_ip) 
 write_mode - Boolean. If true, it will erase output_filepath and rewrite it. Else just append it
+output_filepath - name of output file
 """
 def main(logs, write_mode, output_filepath):
     initial_mode = write_mode # so that write mode is on only for first file
