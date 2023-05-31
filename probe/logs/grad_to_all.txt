@@ -1,0 +1,86 @@
+aakritik@Aakritis-MacBook-Pro UCSD-network-analysis % ping 68.105.244.163
+PING 68.105.244.163 (68.105.244.163): 56 data bytes
+64 bytes from 68.105.244.163: icmp_seq=0 ttl=53 time=32.602 ms
+64 bytes from 68.105.244.163: icmp_seq=1 ttl=53 time=30.777 ms
+64 bytes from 68.105.244.163: icmp_seq=2 ttl=53 time=26.296 ms
+64 bytes from 68.105.244.163: icmp_seq=3 ttl=53 time=26.615 ms
+64 bytes from 68.105.244.163: icmp_seq=4 ttl=53 time=22.924 ms
+64 bytes from 68.105.244.163: icmp_seq=5 ttl=53 time=35.203 ms
+64 bytes from 68.105.244.163: icmp_seq=6 ttl=53 time=24.370 ms
+64 bytes from 68.105.244.163: icmp_seq=7 ttl=53 time=31.643 ms
+64 bytes from 68.105.244.163: icmp_seq=8 ttl=53 time=31.295 ms
+64 bytes from 68.105.244.163: icmp_seq=9 ttl=53 time=33.849 ms
+^C
+--- 68.105.244.163 ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 22.924/29.557/35.203/3.983 ms
+aakritik@Aakritis-MacBook-Pro UCSD-network-analysis % curl ifconfig.me
+24.43.123.71%                                                                                                                                                                                               aakritik@Aakritis-MacBook-Pro UCSD-network-analysis % ping 68.105.244.163
+PING 68.105.244.163 (68.105.244.163): 56 data bytes
+64 bytes from 68.105.244.163: icmp_seq=0 ttl=53 time=24.650 ms
+64 bytes from 68.105.244.163: icmp_seq=1 ttl=53 time=34.074 ms
+64 bytes from 68.105.244.163: icmp_seq=2 ttl=53 time=34.717 ms
+64 bytes from 68.105.244.163: icmp_seq=3 ttl=53 time=36.976 ms
+64 bytes from 68.105.244.163: icmp_seq=4 ttl=53 time=49.285 ms
+64 bytes from 68.105.244.163: icmp_seq=5 ttl=53 time=39.800 ms
+64 bytes from 68.105.244.163: icmp_seq=6 ttl=53 time=33.169 ms
+64 bytes from 68.105.244.163: icmp_seq=7 ttl=53 time=19.593 ms
+64 bytes from 68.105.244.163: icmp_seq=8 ttl=53 time=31.970 ms
+64 bytes from 68.105.244.163: icmp_seq=9 ttl=53 time=28.846 ms
+64 bytes from 68.105.244.163: icmp_seq=10 ttl=53 time=32.429 ms
+64 bytes from 68.105.244.163: icmp_seq=11 ttl=53 time=28.978 ms
+64 bytes from 68.105.244.163: icmp_seq=12 ttl=53 time=30.815 ms
+64 bytes from 68.105.244.163: icmp_seq=13 ttl=53 time=23.273 ms
+64 bytes from 68.105.244.163: icmp_seq=14 ttl=53 time=31.852 ms
+64 bytes from 68.105.244.163: icmp_seq=15 ttl=53 time=31.134 ms
+64 bytes from 68.105.244.163: icmp_seq=16 ttl=53 time=36.692 ms
+64 bytes from 68.105.244.163: icmp_seq=17 ttl=53 time=43.100 ms
+64 bytes from 68.105.244.163: icmp_seq=18 ttl=53 time=32.636 ms
+64 bytes from 68.105.244.163: icmp_seq=19 ttl=53 time=32.161 ms
+64 bytes from 68.105.244.163: icmp_seq=20 ttl=53 time=37.067 ms
+64 bytes from 68.105.244.163: icmp_seq=21 ttl=53 time=20.258 ms
+64 bytes from 68.105.244.163: icmp_seq=22 ttl=53 time=37.375 ms
+64 bytes from 68.105.244.163: icmp_seq=23 ttl=53 time=23.354 ms
+64 bytes from 68.105.244.163: icmp_seq=24 ttl=53 time=22.150 ms
+64 bytes from 68.105.244.163: icmp_seq=25 ttl=53 time=30.570 ms
+64 bytes from 68.105.244.163: icmp_seq=26 ttl=53 time=25.377 ms
+64 bytes from 68.105.244.163: icmp_seq=27 ttl=53 time=25.850 ms
+64 bytes from 68.105.244.163: icmp_seq=28 ttl=53 time=22.708 ms
+64 bytes from 68.105.244.163: icmp_seq=29 ttl=53 time=35.684 ms
+64 bytes from 68.105.244.163: icmp_seq=30 ttl=53 time=30.145 ms
+64 bytes from 68.105.244.163: icmp_seq=31 ttl=53 time=24.686 ms
+64 bytes from 68.105.244.163: icmp_seq=32 ttl=53 time=29.292 ms
+64 bytes from 68.105.244.163: icmp_seq=33 ttl=53 time=30.426 ms
+64 bytes from 68.105.244.163: icmp_seq=34 ttl=53 time=23.484 ms
+64 bytes from 68.105.244.163: icmp_seq=35 ttl=53 time=27.687 ms
+64 bytes from 68.105.244.163: icmp_seq=36 ttl=53 time=30.242 ms
+64 bytes from 68.105.244.163: icmp_seq=37 ttl=53 time=24.657 ms
+64 bytes from 68.105.244.163: icmp_seq=38 ttl=53 time=31.259 ms
+^C
+--- 68.105.244.163 ping statistics ---
+39 packets transmitted, 39 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 19.593/30.472/49.285/6.245 ms
+aakritik@Aakritis-MacBook-Pro UCSD-network-analysis % ping 172.117.162.33
+PING 172.117.162.33 (172.117.162.33): 56 data bytes
+64 bytes from 172.117.162.33: icmp_seq=0 ttl=58 time=26.887 ms
+64 bytes from 172.117.162.33: icmp_seq=1 ttl=58 time=18.390 ms
+64 bytes from 172.117.162.33: icmp_seq=2 ttl=58 time=18.968 ms
+64 bytes from 172.117.162.33: icmp_seq=3 ttl=58 time=29.115 ms
+64 bytes from 172.117.162.33: icmp_seq=4 ttl=58 time=17.773 ms
+64 bytes from 172.117.162.33: icmp_seq=5 ttl=58 time=30.253 ms
+64 bytes from 172.117.162.33: icmp_seq=6 ttl=58 time=23.628 ms
+64 bytes from 172.117.162.33: icmp_seq=7 ttl=58 time=27.474 ms
+64 bytes from 172.117.162.33: icmp_seq=8 ttl=58 time=24.917 ms
+64 bytes from 172.117.162.33: icmp_seq=9 ttl=58 time=26.932 ms
+64 bytes from 172.117.162.33: icmp_seq=10 ttl=58 time=25.311 ms
+64 bytes from 172.117.162.33: icmp_seq=11 ttl=58 time=182.622 ms
+64 bytes from 172.117.162.33: icmp_seq=12 ttl=58 time=19.695 ms
+64 bytes from 172.117.162.33: icmp_seq=13 ttl=58 time=26.448 ms
+64 bytes from 172.117.162.33: icmp_seq=14 ttl=58 time=24.478 ms
+64 bytes from 172.117.162.33: icmp_seq=15 ttl=58 time=23.602 ms
+64 bytes from 172.117.162.33: icmp_seq=16 ttl=58 time=25.084 ms
+64 bytes from 172.117.162.33: icmp_seq=17 ttl=58 time=25.813 ms
+64 bytes from 172.117.162.33: icmp_seq=18 ttl=58 time=26.466 ms
+64 bytes from 172.117.162.33: icmp_seq=19 ttl=58 time=25.831 ms
+64 bytes from 172.117.162.33: icmp_seq=20 ttl=58 time=24.672 ms
+64 bytes from 172.117.162.33: icmp_seq=21 ttl=58 time=22.290 ms
