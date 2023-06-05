@@ -1,0 +1,274 @@
+Pinging ieng6.ucsd.edu [128.54.70.238] with 32 bytes of data:
+Reply from 128.54.70.238: bytes=32 time=2ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+
+Ping statistics for 128.54.70.238:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 4ms, Average = 3ms
+PS C:\Users\akhil> ping ieng6.ucsd.edu -n 10
+
+Pinging ieng6.ucsd.edu [128.54.70.238] with 32 bytes of data:
+Reply from 128.54.70.238: bytes=32 time=2ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=2ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=1ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=2ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=2ms TTL=61
+
+Ping statistics for 128.54.70.238:
+    Packets: Sent = 10, Received = 10, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 4ms, Average = 2ms
+PS C:\Users\akhil> ipconfig
+
+Windows IP Configuration
+
+
+Unknown adapter Local Area Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : ucsd.edu
+   IPv6 Address. . . . . . . . . . . : 2607:f720:f00:4042::1:b55
+   Link-local IPv6 Address . . . . . : fe80::743:5fb4:8cd6:c9fe%4
+   IPv4 Address. . . . . . . . . . . : 100.81.34.101
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . : 100.81.32.1
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Ethernet adapter vEthernet (WSL):
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::5328:d140:fbbe:1228%45
+   IPv4 Address. . . . . . . . . . . : 172.27.128.1
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . :
+PS C:\Users\akhil> ipconfig
+
+Windows IP Configuration
+
+
+Unknown adapter Local Area Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:                                                                                                                                                                                                     Media State . . . . . . . . . . . : Media disconnected                                                                  Connection-specific DNS Suffix  . :                                                                                  
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : ucsd.edu
+   IPv6 Address. . . . . . . . . . . : 2607:f720:f00:4042::1:b55
+   Link-local IPv6 Address . . . . . : fe80::743:5fb4:8cd6:c9fe%4
+   IPv4 Address. . . . . . . . . . . : 100.81.34.101
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . : 100.81.32.1
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Ethernet adapter vEthernet (WSL):
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::5328:d140:fbbe:1228%45
+   IPv4 Address. . . . . . . . . . . : 172.27.128.1
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . :
+PS C:\Users\akhil> curl ifconfig.me
+
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : 174.195.138.48
+RawContent        : HTTP/1.1 200 OK
+                    access-control-allow-origin: *
+                    x-envoy-upstream-service-time: 1
+                    strict-transport-security: max-age=2592000; includeSubDomains
+                    Content-Length: 14
+                    Content-Type: text/plain; charset=...
+Forms             : {}
+Headers           : {[access-control-allow-origin, *], [x-envoy-upstream-service-time, 1], [strict-transport-security,
+                    max-age=2592000; includeSubDomains], [Content-Length, 14]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : mshtml.HTMLDocumentClass
+RawContentLength  : 14
+
+
+
+PS C:\Users\akhil> ping 174.243.251.166
+
+Pinging 174.243.251.166 with 32 bytes of data:
+Request timed out.
+Request timed out.
+
+Ping statistics for 174.243.251.166:
+    Packets: Sent = 2, Received = 0, Lost = 2 (100% loss),
+Control-C
+PS C:\Users\akhil> tracert 174.243.251.166
+
+Tracing route to 166.sub-174-243-251.myvzw.com [174.243.251.166]
+over a maximum of 30 hops:
+
+  1     2 ms     2 ms     1 ms  172.20.10.1
+  2    26 ms    27 ms    33 ms  10.sub-66-174-33.myvzw.com [66.174.33.10]
+  3    74 ms     *       39 ms  162.sub-69-83-185.myvzw.com [69.83.185.162]
+  4   293 ms    36 ms    25 ms  10.210.247.1
+  5     *        *        *     Request timed out.
+  6     *        *        *     Request timed out.
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12
+PS C:\Users\akhil> tracert ieng6.ucsd.edu
+
+Tracing route to ieng6.ucsd.edu [128.54.70.238]
+over a maximum of 30 hops:
+
+  1     2 ms     2 ms     3 ms  100.81.32.2
+  2    60 ms     3 ms     3 ms  m-core-vlan2966-gw.ucsd.edu [132.239.255.114]
+  3     5 ms     3 ms     2 ms  adcom-router-5-vlan985-gw.ucsd.edu [169.228.234.13]
+  4     4 ms     4 ms     2 ms  ieng6.ucsd.edu [128.54.70.238]
+
+Trace complete.
+PS C:\Users\akhil> ping ieng6.ucsd.edu
+
+Pinging ieng6.ucsd.edu [128.54.70.238] with 32 bytes of data:
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=2ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+
+Ping statistics for 128.54.70.238:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 4ms, Average = 3ms
+PS C:\Users\akhil> ping ieng6.ucsd.edu -n 30
+
+Pinging ieng6.ucsd.edu [128.54.70.238] with 32 bytes of data:
+Reply from 128.54.70.238: bytes=32 time=2ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=2ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=2ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=6ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=2ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=2ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=2ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=2ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=5ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=108ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=7ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=10ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=5ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=7ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=22ms TTL=61
+
+Ping statistics for 128.54.70.238:
+    Packets: Sent = 30, Received = 30, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 108ms, Average = 8ms
+
+
+Pinging ieng6.ucsd.edu [128.54.70.238] with 32 bytes of data:
+Reply from 128.54.70.238: bytes=32 time=2ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=7ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=8ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=2ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=12ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=2ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=2ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=5ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=5ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=16ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=15ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=2ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=6ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=5ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=28ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=2ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=6ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=3ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=4ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=2ms TTL=61
+Reply from 128.54.70.238: bytes=32 time=45ms TTL=61
+
+Ping statistics for 128.54.70.238:
+    Packets: Sent = 50, Received = 50, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 45ms, Average = 5ms
