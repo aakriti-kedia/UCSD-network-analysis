@@ -78,29 +78,33 @@ output_filepath - name of output file
 """
 def main(logs, write_mode, output_filepath):
     initial_mode = write_mode # so that write mode is on only for first file
-    for (date, log_name, from_ip) in logs:
-        file_path = f"logs/{log_name}.log"
+    for (label, date, log_name, from_ip) in logs:
+        file_path = f"more-logs/{log_name}"
         output_rows = process_file(file_path)
         if len(output_rows) == 0:
             print(f"WARNING: No csv rows found from {file_path}")
-        write_to_csv(output_filepath, output_rows, date, log_name, from_ip, initial_mode)
+        write_to_csv(output_filepath, output_rows, date, label, from_ip, initial_mode)
         initial_mode = False
 
 if __name__ == "__main__":
+    # LOGS = [
+    #     ('5/30/2023', 'aman-near-ralphs', '70.95.167.232'),
+    #     ('5/26/2023', 'sanidli-ak', 'Unknown'),
+    #     ('5/26/2023', 'sanidli-aman', 'Unknown'),
+    #     ('Unknown', 'cupertino', 'Unknown'),
+    #     ('5/26/2023', 'downtown-cafe', 'Unknown'),
+    #     ('5/26/2023', 'downtown-verizon', 'Unknown'),
+    #     ('5/26/2023', 'downtown', 'Unknown'),
+    #     ('Unknown', 'eduroam-cse', 'Unknown'),
+    #     ('Unknown', 'geisel', 'Unknown'),
+    #     ('Unknown', 'home-akhil', 'Unknown'),
+    #     ('5/26/2023', 'la-jolla', 'Unknown'),
+    #     ('5/26/2023', 'miramar', 'Unknown'),
+    #     ('Unknown', 'san-airport', 'Unknown'),
+    # ]
     LOGS = [
-        ('5/30/2023', 'aman-near-ralphs', '70.95.167.232'),
-        ('5/26/2023', 'sanidli-ak', 'Unknown'),
-        ('5/26/2023', 'sanidli-aman', 'Unknown'),
-        ('Unknown', 'cupertino', 'Unknown'),
-        ('5/26/2023', 'downtown-cafe', 'Unknown'),
-        ('5/26/2023', 'downtown-verizon', 'Unknown'),
-        ('5/26/2023', 'downtown', 'Unknown'),
-        ('Unknown', 'eduroam-cse', 'Unknown'),
-        ('Unknown', 'geisel', 'Unknown'),
-        ('Unknown', 'home-akhil', 'Unknown'),
-        ('5/26/2023', 'la-jolla', 'Unknown'),
-        ('5/26/2023', 'miramar', 'Unknown'),
-        ('Unknown', 'san-airport', 'Unknown'),
+        ('ping_CB', '6/3/2023', 'ping 107.77.227.186 - 2', "Unknown (IP of mobile hotspot)"),
+        ('ping_CA', '6/3/2023', 'ping ieng6.ucsd.edu - 2', "Unknown (IP of mobile hotspot)"),
     ]
-    OUTPUT_FILEPATH = "logs/output.csv"
+    OUTPUT_FILEPATH = "more-logs/output.csv"
     main(LOGS, True, OUTPUT_FILEPATH)
