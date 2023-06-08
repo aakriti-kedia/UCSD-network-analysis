@@ -1,0 +1,4 @@
+ 1  100.81.32.2 (100.81.32.2)  12.760 ms  3.949 ms  3.982 ms
+ 2  * m-core-vlan2966-gw.ucsd.edu (132.239.255.114)  12.324 ms *
+ 3  adcom-7710-3-adcom-router-3-m-core-vlan935-gw.ucsd.edu (169.228.234.5)  12.996 ms  4.568 ms  6.527 ms
+ 4  ieng6.ucsd.edu (128.54.70.238)  6.462 ms !Z  4.151 ms !Z  4.266 ms !Z
