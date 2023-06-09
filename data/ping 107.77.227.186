@@ -1,0 +1,58 @@
+// C -> B
+
+PING 107.77.227.186 (107.77.227.186): 56 data bytes
+64 bytes from 107.77.227.186: icmp_seq=0 ttl=50 time=92.055 ms
+64 bytes from 107.77.227.186: icmp_seq=1 ttl=50 time=40.868 ms
+64 bytes from 107.77.227.186: icmp_seq=2 ttl=50 time=169.062 ms
+64 bytes from 107.77.227.186: icmp_seq=3 ttl=50 time=120.128 ms
+64 bytes from 107.77.227.186: icmp_seq=4 ttl=50 time=53.323 ms
+64 bytes from 107.77.227.186: icmp_seq=5 ttl=50 time=32.447 ms
+64 bytes from 107.77.227.186: icmp_seq=6 ttl=50 time=36.925 ms
+64 bytes from 107.77.227.186: icmp_seq=7 ttl=50 time=30.692 ms
+64 bytes from 107.77.227.186: icmp_seq=8 ttl=50 time=365.881 ms
+64 bytes from 107.77.227.186: icmp_seq=9 ttl=50 time=63.362 ms
+64 bytes from 107.77.227.186: icmp_seq=10 ttl=50 time=134.815 ms
+64 bytes from 107.77.227.186: icmp_seq=11 ttl=50 time=45.046 ms
+64 bytes from 107.77.227.186: icmp_seq=12 ttl=50 time=52.657 ms
+64 bytes from 107.77.227.186: icmp_seq=13 ttl=50 time=32.662 ms
+64 bytes from 107.77.227.186: icmp_seq=14 ttl=50 time=723.826 ms
+64 bytes from 107.77.227.186: icmp_seq=15 ttl=50 time=43.298 ms
+64 bytes from 107.77.227.186: icmp_seq=16 ttl=50 time=55.660 ms
+64 bytes from 107.77.227.186: icmp_seq=17 ttl=50 time=54.924 ms
+64 bytes from 107.77.227.186: icmp_seq=18 ttl=50 time=52.820 ms
+64 bytes from 107.77.227.186: icmp_seq=19 ttl=50 time=54.516 ms
+64 bytes from 107.77.227.186: icmp_seq=20 ttl=50 time=34.962 ms
+64 bytes from 107.77.227.186: icmp_seq=21 ttl=50 time=47.152 ms
+64 bytes from 107.77.227.186: icmp_seq=22 ttl=50 time=364.841 ms
+64 bytes from 107.77.227.186: icmp_seq=23 ttl=50 time=196.871 ms
+64 bytes from 107.77.227.186: icmp_seq=24 ttl=50 time=43.594 ms
+64 bytes from 107.77.227.186: icmp_seq=25 ttl=50 time=109.463 ms
+64 bytes from 107.77.227.186: icmp_seq=26 ttl=50 time=59.732 ms
+64 bytes from 107.77.227.186: icmp_seq=27 ttl=50 time=338.766 ms
+Request timeout for icmp_seq 28
+64 bytes from 107.77.227.186: icmp_seq=28 ttl=50 time=1012.215 ms
+64 bytes from 107.77.227.186: icmp_seq=29 ttl=50 time=1012.133 ms
+64 bytes from 107.77.227.186: icmp_seq=30 ttl=50 time=58.006 ms
+64 bytes from 107.77.227.186: icmp_seq=31 ttl=50 time=38.700 ms
+64 bytes from 107.77.227.186: icmp_seq=32 ttl=50 time=41.702 ms
+64 bytes from 107.77.227.186: icmp_seq=33 ttl=50 time=71.588 ms
+64 bytes from 107.77.227.186: icmp_seq=34 ttl=50 time=31.487 ms
+64 bytes from 107.77.227.186: icmp_seq=35 ttl=50 time=73.527 ms
+64 bytes from 107.77.227.186: icmp_seq=36 ttl=50 time=63.840 ms
+64 bytes from 107.77.227.186: icmp_seq=37 ttl=50 time=715.003 ms
+64 bytes from 107.77.227.186: icmp_seq=38 ttl=50 time=181.166 ms
+64 bytes from 107.77.227.186: icmp_seq=39 ttl=50 time=45.199 ms
+64 bytes from 107.77.227.186: icmp_seq=40 ttl=50 time=51.858 ms
+64 bytes from 107.77.227.186: icmp_seq=41 ttl=50 time=42.384 ms
+64 bytes from 107.77.227.186: icmp_seq=42 ttl=50 time=60.437 ms
+64 bytes from 107.77.227.186: icmp_seq=43 ttl=50 time=267.533 ms
+64 bytes from 107.77.227.186: icmp_seq=44 ttl=50 time=550.933 ms
+64 bytes from 107.77.227.186: icmp_seq=45 ttl=50 time=34.050 ms
+64 bytes from 107.77.227.186: icmp_seq=46 ttl=50 time=145.183 ms
+64 bytes from 107.77.227.186: icmp_seq=47 ttl=50 time=58.748 ms
+64 bytes from 107.77.227.186: icmp_seq=48 ttl=50 time=62.547 ms
+64 bytes from 107.77.227.186: icmp_seq=49 ttl=50 time=50.148 ms
+
+--- 107.77.227.186 ping statistics ---
+50 packets transmitted, 50 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 30.692/162.375/1012.215/235.833 ms
