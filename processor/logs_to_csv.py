@@ -107,9 +107,9 @@ if __name__ == "__main__":
         # ('ping_CB', '6/3/2023', 'ping 107.77.227.186 - 2', "Unknown (IP of mobile hotspot)"),
         # ('ping_CA', '6/3/2023', 'ping ieng6.ucsd.edu - 2', "Unknown (IP of mobile hotspot)"),
         ('ping_BC', '8/3/2023', 'ieng6_ucsd_wifi.txt', 'Unknown (IP of UCSD wifi)', 'utf-8'),
-        ('ping_AC', '7/3/2023', 'full-route.txt',  "Unknown (IP of mobile hotspot)", 'utf-16'),
+        ('ping_AC', '7/3/2023', 'full-route3.txt',  "Unknown (IP of mobile hotspot)", 'utf-8'),
         # ('ping_AC', '7/3/2023', 'full-route2.txt',  "Unknown (IP of mobile hotspot)", 'utf-16'),
-        ('ping_AB', '7/3/2023', 'mobile-att-log.txt',  "Unknown (IP of mobile hotspot)", 'utf-16'),
+        ('ping_AB', '8/3/2023', 'mobile-att-log3.txt',  "Unknown (IP of mobile hotspot)", 'utf-8'),
         # ('ping_AB', '7/3/2023', 'mobile-att-log2.txt',  "Unknown (IP of mobile hotspot)", 'utf-16'),
     ]
     OUTPUT_FILEPATH = "output/csv/latest-output.csv"
