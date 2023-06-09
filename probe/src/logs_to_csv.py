@@ -37,12 +37,12 @@ def extract_icmp_data(line):
         return ip_address, ttl, time
     return None, None, None
 
-def process_file(file_path):
+def process_file(file_path, encoding_type):
     print("Processing ", file_path)
     ip_to_domain = {}
     output_rows = []
 
-    with open(file_path, 'r') as file:
+    with open(file_path, 'r', encoding=encoding_type) as file:
         lines = file.readlines()
 
         for line in lines:
@@ -78,11 +78,12 @@ output_filepath - name of output file
 """
 def main(logs, write_mode, output_filepath):
     initial_mode = write_mode # so that write mode is on only for first file
-    for (label, date, log_name, from_ip) in logs:
+    for (label, date, log_name, from_ip, encoding_type) in logs:
         file_path = f"more-logs/{log_name}"
-        output_rows = process_file(file_path)
+        output_rows = process_file(file_path, encoding_type)
         if len(output_rows) == 0:
             print(f"WARNING: No csv rows found from {file_path}")
+        print(f"INFO: {len(output_rows)} loaded for label {label}")
         write_to_csv(output_filepath, output_rows, date, label, from_ip, initial_mode)
         initial_mode = False
 
@@ -103,8 +104,13 @@ if __name__ == "__main__":
     #     ('Unknown', 'san-airport', 'Unknown'),
     # ]
     LOGS = [
-        ('ping_CB', '6/3/2023', 'ping 107.77.227.186 - 2', "Unknown (IP of mobile hotspot)"),
-        ('ping_CA', '6/3/2023', 'ping ieng6.ucsd.edu - 2', "Unknown (IP of mobile hotspot)"),
+        # ('ping_CB', '6/3/2023', 'ping 107.77.227.186 - 2', "Unknown (IP of mobile hotspot)"),
+        # ('ping_CA', '6/3/2023', 'ping ieng6.ucsd.edu - 2', "Unknown (IP of mobile hotspot)"),
+        ('ping_BC', '8/3/2023', 'ieng6_ucsd_wifi.txt', 'Unknown (IP of UCSD wifi)', 'utf-8'),
+        ('ping_AC', '7/3/2023', 'full-route.txt',  "Unknown (IP of mobile hotspot)", 'utf-16'),
+        # ('ping_AC', '7/3/2023', 'full-route2.txt',  "Unknown (IP of mobile hotspot)", 'utf-16'),
+        ('ping_AB', '7/3/2023', 'mobile-att-log.txt',  "Unknown (IP of mobile hotspot)", 'utf-16'),
+        # ('ping_AB', '7/3/2023', 'mobile-att-log2.txt',  "Unknown (IP of mobile hotspot)", 'utf-16'),
     ]
-    OUTPUT_FILEPATH = "more-logs/output.csv"
+    OUTPUT_FILEPATH = "more-logs/latest-output.csv"
     main(LOGS, True, OUTPUT_FILEPATH)
