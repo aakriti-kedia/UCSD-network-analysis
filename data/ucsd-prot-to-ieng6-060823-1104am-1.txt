@@ -1,0 +1,431 @@
+PING ieng6.ucsd.edu (128.54.70.238): 56 data bytes
+64 bytes from 128.54.70.238: icmp_seq=0 ttl=61 time=3.154 ms
+64 bytes from 128.54.70.238: icmp_seq=1 ttl=61 time=112.449 ms
+64 bytes from 128.54.70.238: icmp_seq=2 ttl=61 time=5.786 ms
+64 bytes from 128.54.70.238: icmp_seq=3 ttl=61 time=33.795 ms
+64 bytes from 128.54.70.238: icmp_seq=4 ttl=61 time=126.469 ms
+64 bytes from 128.54.70.238: icmp_seq=5 ttl=61 time=141.172 ms
+64 bytes from 128.54.70.238: icmp_seq=6 ttl=61 time=199.589 ms
+64 bytes from 128.54.70.238: icmp_seq=7 ttl=61 time=187.282 ms
+64 bytes from 128.54.70.238: icmp_seq=8 ttl=61 time=12.904 ms
+64 bytes from 128.54.70.238: icmp_seq=9 ttl=61 time=17.400 ms
+64 bytes from 128.54.70.238: icmp_seq=10 ttl=61 time=98.330 ms
+64 bytes from 128.54.70.238: icmp_seq=11 ttl=61 time=61.321 ms
+64 bytes from 128.54.70.238: icmp_seq=12 ttl=61 time=14.992 ms
+64 bytes from 128.54.70.238: icmp_seq=13 ttl=61 time=11.948 ms
+64 bytes from 128.54.70.238: icmp_seq=14 ttl=61 time=22.251 ms
+64 bytes from 128.54.70.238: icmp_seq=15 ttl=61 time=36.645 ms
+64 bytes from 128.54.70.238: icmp_seq=16 ttl=61 time=89.296 ms
+64 bytes from 128.54.70.238: icmp_seq=17 ttl=61 time=23.863 ms
+64 bytes from 128.54.70.238: icmp_seq=18 ttl=61 time=50.337 ms
+64 bytes from 128.54.70.238: icmp_seq=19 ttl=61 time=302.367 ms
+64 bytes from 128.54.70.238: icmp_seq=20 ttl=61 time=132.319 ms
+64 bytes from 128.54.70.238: icmp_seq=21 ttl=61 time=38.514 ms
+64 bytes from 128.54.70.238: icmp_seq=22 ttl=61 time=12.807 ms
+64 bytes from 128.54.70.238: icmp_seq=23 ttl=61 time=16.885 ms
+64 bytes from 128.54.70.238: icmp_seq=24 ttl=61 time=7.568 ms
+64 bytes from 128.54.70.238: icmp_seq=25 ttl=61 time=29.592 ms
+64 bytes from 128.54.70.238: icmp_seq=26 ttl=61 time=7.586 ms
+64 bytes from 128.54.70.238: icmp_seq=27 ttl=61 time=49.949 ms
+64 bytes from 128.54.70.238: icmp_seq=28 ttl=61 time=272.005 ms
+64 bytes from 128.54.70.238: icmp_seq=29 ttl=61 time=137.903 ms
+64 bytes from 128.54.70.238: icmp_seq=30 ttl=61 time=208.104 ms
+64 bytes from 128.54.70.238: icmp_seq=31 ttl=61 time=13.011 ms
+64 bytes from 128.54.70.238: icmp_seq=32 ttl=61 time=14.550 ms
+64 bytes from 128.54.70.238: icmp_seq=33 ttl=61 time=12.979 ms
+64 bytes from 128.54.70.238: icmp_seq=34 ttl=61 time=17.299 ms
+64 bytes from 128.54.70.238: icmp_seq=35 ttl=61 time=2.611 ms
+64 bytes from 128.54.70.238: icmp_seq=36 ttl=61 time=3.036 ms
+64 bytes from 128.54.70.238: icmp_seq=37 ttl=61 time=154.490 ms
+64 bytes from 128.54.70.238: icmp_seq=38 ttl=61 time=4.739 ms
+64 bytes from 128.54.70.238: icmp_seq=39 ttl=61 time=47.370 ms
+64 bytes from 128.54.70.238: icmp_seq=40 ttl=61 time=93.619 ms
+64 bytes from 128.54.70.238: icmp_seq=41 ttl=61 time=9.927 ms
+64 bytes from 128.54.70.238: icmp_seq=42 ttl=61 time=58.331 ms
+64 bytes from 128.54.70.238: icmp_seq=43 ttl=61 time=3.181 ms
+64 bytes from 128.54.70.238: icmp_seq=44 ttl=61 time=3.573 ms
+64 bytes from 128.54.70.238: icmp_seq=45 ttl=61 time=12.301 ms
+64 bytes from 128.54.70.238: icmp_seq=46 ttl=61 time=41.182 ms
+64 bytes from 128.54.70.238: icmp_seq=47 ttl=61 time=3.781 ms
+64 bytes from 128.54.70.238: icmp_seq=48 ttl=61 time=2.813 ms
+64 bytes from 128.54.70.238: icmp_seq=49 ttl=61 time=6.508 ms
+64 bytes from 128.54.70.238: icmp_seq=50 ttl=61 time=22.633 ms
+64 bytes from 128.54.70.238: icmp_seq=51 ttl=61 time=71.847 ms
+64 bytes from 128.54.70.238: icmp_seq=52 ttl=61 time=117.456 ms
+64 bytes from 128.54.70.238: icmp_seq=53 ttl=61 time=2.909 ms
+64 bytes from 128.54.70.238: icmp_seq=54 ttl=61 time=3.273 ms
+64 bytes from 128.54.70.238: icmp_seq=55 ttl=61 time=2.990 ms
+64 bytes from 128.54.70.238: icmp_seq=56 ttl=61 time=28.340 ms
+64 bytes from 128.54.70.238: icmp_seq=57 ttl=61 time=3.624 ms
+64 bytes from 128.54.70.238: icmp_seq=58 ttl=61 time=3.309 ms
+64 bytes from 128.54.70.238: icmp_seq=59 ttl=61 time=4.713 ms
+64 bytes from 128.54.70.238: icmp_seq=60 ttl=61 time=16.687 ms
+64 bytes from 128.54.70.238: icmp_seq=61 ttl=61 time=3.322 ms
+64 bytes from 128.54.70.238: icmp_seq=62 ttl=61 time=36.841 ms
+64 bytes from 128.54.70.238: icmp_seq=63 ttl=61 time=78.266 ms
+64 bytes from 128.54.70.238: icmp_seq=64 ttl=61 time=175.554 ms
+64 bytes from 128.54.70.238: icmp_seq=65 ttl=61 time=36.856 ms
+64 bytes from 128.54.70.238: icmp_seq=66 ttl=61 time=81.229 ms
+64 bytes from 128.54.70.238: icmp_seq=67 ttl=61 time=3.583 ms
+64 bytes from 128.54.70.238: icmp_seq=68 ttl=61 time=3.400 ms
+64 bytes from 128.54.70.238: icmp_seq=69 ttl=61 time=4.648 ms
+64 bytes from 128.54.70.238: icmp_seq=70 ttl=61 time=2.966 ms
+64 bytes from 128.54.70.238: icmp_seq=71 ttl=61 time=3.414 ms
+64 bytes from 128.54.70.238: icmp_seq=72 ttl=61 time=3.684 ms
+64 bytes from 128.54.70.238: icmp_seq=73 ttl=61 time=153.655 ms
+64 bytes from 128.54.70.238: icmp_seq=74 ttl=61 time=49.265 ms
+64 bytes from 128.54.70.238: icmp_seq=75 ttl=61 time=93.637 ms
+64 bytes from 128.54.70.238: icmp_seq=76 ttl=61 time=139.048 ms
+64 bytes from 128.54.70.238: icmp_seq=77 ttl=61 time=28.172 ms
+64 bytes from 128.54.70.238: icmp_seq=78 ttl=61 time=3.292 ms
+64 bytes from 128.54.70.238: icmp_seq=79 ttl=61 time=7.052 ms
+64 bytes from 128.54.70.238: icmp_seq=80 ttl=61 time=4.629 ms
+64 bytes from 128.54.70.238: icmp_seq=81 ttl=61 time=8.291 ms
+64 bytes from 128.54.70.238: icmp_seq=82 ttl=61 time=82.777 ms
+64 bytes from 128.54.70.238: icmp_seq=83 ttl=61 time=3.563 ms
+64 bytes from 128.54.70.238: icmp_seq=84 ttl=61 time=3.227 ms
+64 bytes from 128.54.70.238: icmp_seq=85 ttl=61 time=25.382 ms
+64 bytes from 128.54.70.238: icmp_seq=86 ttl=61 time=68.716 ms
+64 bytes from 128.54.70.238: icmp_seq=87 ttl=61 time=113.701 ms
+64 bytes from 128.54.70.238: icmp_seq=88 ttl=61 time=33.727 ms
+64 bytes from 128.54.70.238: icmp_seq=89 ttl=61 time=77.211 ms
+64 bytes from 128.54.70.238: icmp_seq=90 ttl=61 time=2.918 ms
+64 bytes from 128.54.70.238: icmp_seq=91 ttl=61 time=3.629 ms
+64 bytes from 128.54.70.238: icmp_seq=92 ttl=61 time=24.904 ms
+64 bytes from 128.54.70.238: icmp_seq=93 ttl=61 time=5.008 ms
+64 bytes from 128.54.70.238: icmp_seq=94 ttl=61 time=3.293 ms
+64 bytes from 128.54.70.238: icmp_seq=95 ttl=61 time=8.055 ms
+64 bytes from 128.54.70.238: icmp_seq=96 ttl=61 time=22.997 ms
+64 bytes from 128.54.70.238: icmp_seq=97 ttl=61 time=39.563 ms
+64 bytes from 128.54.70.238: icmp_seq=98 ttl=61 time=99.017 ms
+64 bytes from 128.54.70.238: icmp_seq=99 ttl=61 time=327.294 ms
+64 bytes from 128.54.70.238: icmp_seq=100 ttl=61 time=15.875 ms
+64 bytes from 128.54.70.238: icmp_seq=101 ttl=61 time=8.541 ms
+64 bytes from 128.54.70.238: icmp_seq=102 ttl=61 time=39.379 ms
+64 bytes from 128.54.70.238: icmp_seq=103 ttl=61 time=13.249 ms
+64 bytes from 128.54.70.238: icmp_seq=104 ttl=61 time=9.736 ms
+64 bytes from 128.54.70.238: icmp_seq=105 ttl=61 time=4.831 ms
+64 bytes from 128.54.70.238: icmp_seq=106 ttl=61 time=4.046 ms
+64 bytes from 128.54.70.238: icmp_seq=107 ttl=61 time=3.559 ms
+64 bytes from 128.54.70.238: icmp_seq=108 ttl=61 time=14.707 ms
+64 bytes from 128.54.70.238: icmp_seq=109 ttl=61 time=76.333 ms
+64 bytes from 128.54.70.238: icmp_seq=110 ttl=61 time=3.515 ms
+64 bytes from 128.54.70.238: icmp_seq=111 ttl=61 time=15.934 ms
+64 bytes from 128.54.70.238: icmp_seq=112 ttl=61 time=65.284 ms
+64 bytes from 128.54.70.238: icmp_seq=113 ttl=61 time=3.749 ms
+64 bytes from 128.54.70.238: icmp_seq=114 ttl=61 time=3.250 ms
+64 bytes from 128.54.70.238: icmp_seq=115 ttl=61 time=4.472 ms
+64 bytes from 128.54.70.238: icmp_seq=116 ttl=61 time=5.087 ms
+64 bytes from 128.54.70.238: icmp_seq=117 ttl=61 time=22.209 ms
+64 bytes from 128.54.70.238: icmp_seq=118 ttl=61 time=49.188 ms
+64 bytes from 128.54.70.238: icmp_seq=119 ttl=61 time=31.053 ms
+64 bytes from 128.54.70.238: icmp_seq=120 ttl=61 time=79.489 ms
+64 bytes from 128.54.70.238: icmp_seq=121 ttl=61 time=124.975 ms
+64 bytes from 128.54.70.238: icmp_seq=122 ttl=61 time=170.326 ms
+64 bytes from 128.54.70.238: icmp_seq=123 ttl=61 time=3.369 ms
+64 bytes from 128.54.70.238: icmp_seq=124 ttl=61 time=3.149 ms
+64 bytes from 128.54.70.238: icmp_seq=125 ttl=61 time=3.334 ms
+64 bytes from 128.54.70.238: icmp_seq=126 ttl=61 time=3.467 ms
+64 bytes from 128.54.70.238: icmp_seq=127 ttl=61 time=35.683 ms
+64 bytes from 128.54.70.238: icmp_seq=128 ttl=61 time=3.648 ms
+64 bytes from 128.54.70.238: icmp_seq=129 ttl=61 time=4.278 ms
+64 bytes from 128.54.70.238: icmp_seq=130 ttl=61 time=4.584 ms
+64 bytes from 128.54.70.238: icmp_seq=131 ttl=61 time=47.767 ms
+64 bytes from 128.54.70.238: icmp_seq=132 ttl=61 time=94.221 ms
+64 bytes from 128.54.70.238: icmp_seq=133 ttl=61 time=9.505 ms
+64 bytes from 128.54.70.238: icmp_seq=134 ttl=61 time=55.947 ms
+64 bytes from 128.54.70.238: icmp_seq=135 ttl=61 time=431.084 ms
+64 bytes from 128.54.70.238: icmp_seq=136 ttl=61 time=3.100 ms
+64 bytes from 128.54.70.238: icmp_seq=137 ttl=61 time=18.794 ms
+64 bytes from 128.54.70.238: icmp_seq=138 ttl=61 time=5.493 ms
+64 bytes from 128.54.70.238: icmp_seq=139 ttl=61 time=3.213 ms
+64 bytes from 128.54.70.238: icmp_seq=140 ttl=61 time=3.402 ms
+64 bytes from 128.54.70.238: icmp_seq=141 ttl=61 time=4.098 ms
+64 bytes from 128.54.70.238: icmp_seq=142 ttl=61 time=23.383 ms
+64 bytes from 128.54.70.238: icmp_seq=143 ttl=61 time=66.919 ms
+64 bytes from 128.54.70.238: icmp_seq=144 ttl=61 time=307.874 ms
+64 bytes from 128.54.70.238: icmp_seq=145 ttl=61 time=158.224 ms
+64 bytes from 128.54.70.238: icmp_seq=146 ttl=61 time=4.893 ms
+64 bytes from 128.54.70.238: icmp_seq=147 ttl=61 time=28.476 ms
+64 bytes from 128.54.70.238: icmp_seq=148 ttl=61 time=4.466 ms
+64 bytes from 128.54.70.238: icmp_seq=149 ttl=61 time=3.413 ms
+64 bytes from 128.54.70.238: icmp_seq=150 ttl=61 time=3.843 ms
+64 bytes from 128.54.70.238: icmp_seq=151 ttl=61 time=3.210 ms
+64 bytes from 128.54.70.238: icmp_seq=152 ttl=61 time=4.540 ms
+64 bytes from 128.54.70.238: icmp_seq=153 ttl=61 time=194.137 ms
+64 bytes from 128.54.70.238: icmp_seq=154 ttl=61 time=43.591 ms
+64 bytes from 128.54.70.238: icmp_seq=155 ttl=61 time=95.949 ms
+64 bytes from 128.54.70.238: icmp_seq=156 ttl=61 time=4.161 ms
+64 bytes from 128.54.70.238: icmp_seq=157 ttl=61 time=47.666 ms
+64 bytes from 128.54.70.238: icmp_seq=158 ttl=61 time=91.314 ms
+64 bytes from 128.54.70.238: icmp_seq=159 ttl=61 time=5.940 ms
+64 bytes from 128.54.70.238: icmp_seq=160 ttl=61 time=4.918 ms
+64 bytes from 128.54.70.238: icmp_seq=161 ttl=61 time=3.670 ms
+64 bytes from 128.54.70.238: icmp_seq=162 ttl=61 time=70.949 ms
+64 bytes from 128.54.70.238: icmp_seq=163 ttl=61 time=3.369 ms
+64 bytes from 128.54.70.238: icmp_seq=164 ttl=61 time=3.540 ms
+64 bytes from 128.54.70.238: icmp_seq=165 ttl=61 time=10.134 ms
+64 bytes from 128.54.70.238: icmp_seq=166 ttl=61 time=53.560 ms
+64 bytes from 128.54.70.238: icmp_seq=167 ttl=61 time=97.493 ms
+64 bytes from 128.54.70.238: icmp_seq=168 ttl=61 time=142.479 ms
+64 bytes from 128.54.70.238: icmp_seq=169 ttl=61 time=4.555 ms
+64 bytes from 128.54.70.238: icmp_seq=170 ttl=61 time=3.192 ms
+64 bytes from 128.54.70.238: icmp_seq=171 ttl=61 time=4.202 ms
+64 bytes from 128.54.70.238: icmp_seq=172 ttl=61 time=3.472 ms
+64 bytes from 128.54.70.238: icmp_seq=173 ttl=61 time=5.561 ms
+64 bytes from 128.54.70.238: icmp_seq=174 ttl=61 time=17.097 ms
+64 bytes from 128.54.70.238: icmp_seq=175 ttl=61 time=3.415 ms
+64 bytes from 128.54.70.238: icmp_seq=176 ttl=61 time=3.315 ms
+64 bytes from 128.54.70.238: icmp_seq=177 ttl=61 time=19.780 ms
+64 bytes from 128.54.70.238: icmp_seq=178 ttl=61 time=68.443 ms
+64 bytes from 128.54.70.238: icmp_seq=179 ttl=61 time=4.771 ms
+64 bytes from 128.54.70.238: icmp_seq=180 ttl=61 time=350.654 ms
+64 bytes from 128.54.70.238: icmp_seq=181 ttl=61 time=398.269 ms
+64 bytes from 128.54.70.238: icmp_seq=182 ttl=61 time=4.616 ms
+64 bytes from 128.54.70.238: icmp_seq=183 ttl=61 time=26.670 ms
+64 bytes from 128.54.70.238: icmp_seq=184 ttl=61 time=3.451 ms
+64 bytes from 128.54.70.238: icmp_seq=185 ttl=61 time=4.622 ms
+64 bytes from 128.54.70.238: icmp_seq=186 ttl=61 time=3.188 ms
+64 bytes from 128.54.70.238: icmp_seq=187 ttl=61 time=2.938 ms
+64 bytes from 128.54.70.238: icmp_seq=188 ttl=61 time=3.442 ms
+64 bytes from 128.54.70.238: icmp_seq=189 ttl=61 time=39.968 ms
+64 bytes from 128.54.70.238: icmp_seq=190 ttl=61 time=85.733 ms
+64 bytes from 128.54.70.238: icmp_seq=191 ttl=61 time=128.548 ms
+64 bytes from 128.54.70.238: icmp_seq=192 ttl=61 time=172.461 ms
+64 bytes from 128.54.70.238: icmp_seq=193 ttl=61 time=24.779 ms
+64 bytes from 128.54.70.238: icmp_seq=194 ttl=61 time=3.781 ms
+64 bytes from 128.54.70.238: icmp_seq=195 ttl=61 time=3.447 ms
+64 bytes from 128.54.70.238: icmp_seq=196 ttl=61 time=3.561 ms
+64 bytes from 128.54.70.238: icmp_seq=197 ttl=61 time=3.182 ms
+64 bytes from 128.54.70.238: icmp_seq=198 ttl=61 time=5.506 ms
+64 bytes from 128.54.70.238: icmp_seq=199 ttl=61 time=3.079 ms
+64 bytes from 128.54.70.238: icmp_seq=200 ttl=61 time=9.147 ms
+64 bytes from 128.54.70.238: icmp_seq=201 ttl=61 time=55.795 ms
+64 bytes from 128.54.70.238: icmp_seq=202 ttl=61 time=96.687 ms
+64 bytes from 128.54.70.238: icmp_seq=203 ttl=61 time=11.703 ms
+64 bytes from 128.54.70.238: icmp_seq=204 ttl=61 time=384.395 ms
+64 bytes from 128.54.70.238: icmp_seq=205 ttl=61 time=3.354 ms
+64 bytes from 128.54.70.238: icmp_seq=206 ttl=61 time=3.474 ms
+64 bytes from 128.54.70.238: icmp_seq=207 ttl=61 time=3.023 ms
+64 bytes from 128.54.70.238: icmp_seq=208 ttl=61 time=11.329 ms
+64 bytes from 128.54.70.238: icmp_seq=209 ttl=61 time=3.819 ms
+64 bytes from 128.54.70.238: icmp_seq=210 ttl=61 time=3.410 ms
+64 bytes from 128.54.70.238: icmp_seq=211 ttl=61 time=22.919 ms
+64 bytes from 128.54.70.238: icmp_seq=212 ttl=61 time=74.468 ms
+64 bytes from 128.54.70.238: icmp_seq=213 ttl=61 time=268.663 ms
+64 bytes from 128.54.70.238: icmp_seq=214 ttl=61 time=114.140 ms
+64 bytes from 128.54.70.238: icmp_seq=215 ttl=61 time=157.848 ms
+64 bytes from 128.54.70.238: icmp_seq=216 ttl=61 time=4.131 ms
+64 bytes from 128.54.70.238: icmp_seq=217 ttl=61 time=3.241 ms
+64 bytes from 128.54.70.238: icmp_seq=218 ttl=61 time=11.065 ms
+64 bytes from 128.54.70.238: icmp_seq=219 ttl=61 time=29.431 ms
+64 bytes from 128.54.70.238: icmp_seq=220 ttl=61 time=6.068 ms
+64 bytes from 128.54.70.238: icmp_seq=221 ttl=61 time=3.426 ms
+64 bytes from 128.54.70.238: icmp_seq=222 ttl=61 time=144.037 ms
+64 bytes from 128.54.70.238: icmp_seq=223 ttl=61 time=3.451 ms
+64 bytes from 128.54.70.238: icmp_seq=224 ttl=61 time=37.105 ms
+64 bytes from 128.54.70.238: icmp_seq=225 ttl=61 time=84.147 ms
+64 bytes from 128.54.70.238: icmp_seq=226 ttl=61 time=4.074 ms
+64 bytes from 128.54.70.238: icmp_seq=227 ttl=61 time=39.168 ms
+64 bytes from 128.54.70.238: icmp_seq=228 ttl=61 time=84.229 ms
+64 bytes from 128.54.70.238: icmp_seq=229 ttl=61 time=3.398 ms
+64 bytes from 128.54.70.238: icmp_seq=230 ttl=61 time=3.434 ms
+64 bytes from 128.54.70.238: icmp_seq=231 ttl=61 time=26.926 ms
+64 bytes from 128.54.70.238: icmp_seq=232 ttl=61 time=3.464 ms
+64 bytes from 128.54.70.238: icmp_seq=233 ttl=61 time=3.435 ms
+64 bytes from 128.54.70.238: icmp_seq=234 ttl=61 time=5.987 ms
+64 bytes from 128.54.70.238: icmp_seq=235 ttl=61 time=14.294 ms
+64 bytes from 128.54.70.238: icmp_seq=236 ttl=61 time=67.938 ms
+64 bytes from 128.54.70.238: icmp_seq=237 ttl=61 time=109.000 ms
+64 bytes from 128.54.70.238: icmp_seq=238 ttl=61 time=152.178 ms
+64 bytes from 128.54.70.238: icmp_seq=239 ttl=61 time=28.478 ms
+64 bytes from 128.54.70.238: icmp_seq=240 ttl=61 time=3.617 ms
+64 bytes from 128.54.70.238: icmp_seq=241 ttl=61 time=3.438 ms
+64 bytes from 128.54.70.238: icmp_seq=242 ttl=61 time=3.466 ms
+64 bytes from 128.54.70.238: icmp_seq=243 ttl=61 time=16.732 ms
+64 bytes from 128.54.70.238: icmp_seq=244 ttl=61 time=28.249 ms
+64 bytes from 128.54.70.238: icmp_seq=245 ttl=61 time=6.240 ms
+64 bytes from 128.54.70.238: icmp_seq=246 ttl=61 time=3.481 ms
+64 bytes from 128.54.70.238: icmp_seq=247 ttl=61 time=38.537 ms
+64 bytes from 128.54.70.238: icmp_seq=248 ttl=61 time=88.392 ms
+64 bytes from 128.54.70.238: icmp_seq=249 ttl=61 time=324.601 ms
+64 bytes from 128.54.70.238: icmp_seq=250 ttl=61 time=48.799 ms
+64 bytes from 128.54.70.238: icmp_seq=251 ttl=61 time=97.177 ms
+64 bytes from 128.54.70.238: icmp_seq=252 ttl=61 time=5.563 ms
+64 bytes from 128.54.70.238: icmp_seq=253 ttl=61 time=26.885 ms
+64 bytes from 128.54.70.238: icmp_seq=254 ttl=61 time=31.297 ms
+64 bytes from 128.54.70.238: icmp_seq=255 ttl=61 time=3.444 ms
+64 bytes from 128.54.70.238: icmp_seq=256 ttl=61 time=4.976 ms
+64 bytes from 128.54.70.238: icmp_seq=257 ttl=61 time=4.168 ms
+64 bytes from 128.54.70.238: icmp_seq=258 ttl=61 time=204.539 ms
+64 bytes from 128.54.70.238: icmp_seq=259 ttl=61 time=48.579 ms
+64 bytes from 128.54.70.238: icmp_seq=260 ttl=61 time=95.075 ms
+64 bytes from 128.54.70.238: icmp_seq=261 ttl=61 time=141.470 ms
+64 bytes from 128.54.70.238: icmp_seq=262 ttl=61 time=3.039 ms
+64 bytes from 128.54.70.238: icmp_seq=263 ttl=61 time=12.023 ms
+64 bytes from 128.54.70.238: icmp_seq=264 ttl=61 time=4.514 ms
+64 bytes from 128.54.70.238: icmp_seq=265 ttl=61 time=4.810 ms
+64 bytes from 128.54.70.238: icmp_seq=266 ttl=61 time=3.401 ms
+64 bytes from 128.54.70.238: icmp_seq=267 ttl=61 time=94.551 ms
+64 bytes from 128.54.70.238: icmp_seq=268 ttl=61 time=3.225 ms
+64 bytes from 128.54.70.238: icmp_seq=269 ttl=61 time=3.552 ms
+64 bytes from 128.54.70.238: icmp_seq=270 ttl=61 time=26.468 ms
+64 bytes from 128.54.70.238: icmp_seq=271 ttl=61 time=73.836 ms
+64 bytes from 128.54.70.238: icmp_seq=272 ttl=61 time=4.604 ms
+64 bytes from 128.54.70.238: icmp_seq=273 ttl=61 time=34.896 ms
+64 bytes from 128.54.70.238: icmp_seq=274 ttl=61 time=77.963 ms
+64 bytes from 128.54.70.238: icmp_seq=275 ttl=61 time=3.355 ms
+64 bytes from 128.54.70.238: icmp_seq=276 ttl=61 time=4.461 ms
+64 bytes from 128.54.70.238: icmp_seq=277 ttl=61 time=4.058 ms
+64 bytes from 128.54.70.238: icmp_seq=278 ttl=61 time=11.486 ms
+64 bytes from 128.54.70.238: icmp_seq=279 ttl=61 time=3.125 ms
+64 bytes from 128.54.70.238: icmp_seq=280 ttl=61 time=3.199 ms
+64 bytes from 128.54.70.238: icmp_seq=281 ttl=61 time=2.782 ms
+64 bytes from 128.54.70.238: icmp_seq=282 ttl=61 time=44.587 ms
+64 bytes from 128.54.70.238: icmp_seq=283 ttl=61 time=87.944 ms
+64 bytes from 128.54.70.238: icmp_seq=284 ttl=61 time=132.601 ms
+64 bytes from 128.54.70.238: icmp_seq=285 ttl=61 time=3.101 ms
+64 bytes from 128.54.70.238: icmp_seq=286 ttl=61 time=3.954 ms
+64 bytes from 128.54.70.238: icmp_seq=287 ttl=61 time=3.340 ms
+64 bytes from 128.54.70.238: icmp_seq=288 ttl=61 time=9.138 ms
+64 bytes from 128.54.70.238: icmp_seq=289 ttl=61 time=27.435 ms
+64 bytes from 128.54.70.238: icmp_seq=290 ttl=61 time=3.883 ms
+64 bytes from 128.54.70.238: icmp_seq=291 ttl=61 time=3.498 ms
+64 bytes from 128.54.70.238: icmp_seq=292 ttl=61 time=4.960 ms
+64 bytes from 128.54.70.238: icmp_seq=293 ttl=61 time=20.604 ms
+64 bytes from 128.54.70.238: icmp_seq=294 ttl=61 time=257.367 ms
+64 bytes from 128.54.70.238: icmp_seq=295 ttl=61 time=3.463 ms
+64 bytes from 128.54.70.238: icmp_seq=296 ttl=61 time=28.716 ms
+64 bytes from 128.54.70.238: icmp_seq=297 ttl=61 time=71.136 ms
+64 bytes from 128.54.70.238: icmp_seq=298 ttl=61 time=4.112 ms
+64 bytes from 128.54.70.238: icmp_seq=299 ttl=61 time=20.938 ms
+64 bytes from 128.54.70.238: icmp_seq=300 ttl=61 time=3.422 ms
+64 bytes from 128.54.70.238: icmp_seq=301 ttl=61 time=3.369 ms
+64 bytes from 128.54.70.238: icmp_seq=302 ttl=61 time=3.856 ms
+64 bytes from 128.54.70.238: icmp_seq=303 ttl=61 time=144.598 ms
+64 bytes from 128.54.70.238: icmp_seq=304 ttl=61 time=3.192 ms
+64 bytes from 128.54.70.238: icmp_seq=305 ttl=61 time=45.589 ms
+64 bytes from 128.54.70.238: icmp_seq=306 ttl=61 time=3.035 ms
+64 bytes from 128.54.70.238: icmp_seq=307 ttl=61 time=6.262 ms
+64 bytes from 128.54.70.238: icmp_seq=308 ttl=61 time=6.460 ms
+64 bytes from 128.54.70.238: icmp_seq=309 ttl=61 time=4.054 ms
+64 bytes from 128.54.70.238: icmp_seq=310 ttl=61 time=2.640 ms
+64 bytes from 128.54.70.238: icmp_seq=311 ttl=61 time=2.909 ms
+64 bytes from 128.54.70.238: icmp_seq=312 ttl=61 time=5.000 ms
+64 bytes from 128.54.70.238: icmp_seq=313 ttl=61 time=5.408 ms
+64 bytes from 128.54.70.238: icmp_seq=314 ttl=61 time=3.070 ms
+64 bytes from 128.54.70.238: icmp_seq=315 ttl=61 time=5.623 ms
+64 bytes from 128.54.70.238: icmp_seq=316 ttl=61 time=3.486 ms
+64 bytes from 128.54.70.238: icmp_seq=317 ttl=61 time=5.732 ms
+64 bytes from 128.54.70.238: icmp_seq=318 ttl=61 time=3.837 ms
+64 bytes from 128.54.70.238: icmp_seq=319 ttl=61 time=3.386 ms
+64 bytes from 128.54.70.238: icmp_seq=320 ttl=61 time=2.968 ms
+64 bytes from 128.54.70.238: icmp_seq=321 ttl=61 time=2.746 ms
+64 bytes from 128.54.70.238: icmp_seq=322 ttl=61 time=2.859 ms
+64 bytes from 128.54.70.238: icmp_seq=323 ttl=61 time=7.112 ms
+64 bytes from 128.54.70.238: icmp_seq=324 ttl=61 time=5.837 ms
+64 bytes from 128.54.70.238: icmp_seq=325 ttl=61 time=5.914 ms
+64 bytes from 128.54.70.238: icmp_seq=326 ttl=61 time=54.766 ms
+64 bytes from 128.54.70.238: icmp_seq=327 ttl=61 time=7.118 ms
+64 bytes from 128.54.70.238: icmp_seq=328 ttl=61 time=4.052 ms
+64 bytes from 128.54.70.238: icmp_seq=329 ttl=61 time=6.181 ms
+64 bytes from 128.54.70.238: icmp_seq=330 ttl=61 time=179.262 ms
+64 bytes from 128.54.70.238: icmp_seq=331 ttl=61 time=286.901 ms
+64 bytes from 128.54.70.238: icmp_seq=332 ttl=61 time=333.206 ms
+64 bytes from 128.54.70.238: icmp_seq=333 ttl=61 time=5.072 ms
+64 bytes from 128.54.70.238: icmp_seq=334 ttl=61 time=127.083 ms
+64 bytes from 128.54.70.238: icmp_seq=335 ttl=61 time=74.781 ms
+64 bytes from 128.54.70.238: icmp_seq=336 ttl=61 time=13.899 ms
+64 bytes from 128.54.70.238: icmp_seq=337 ttl=61 time=20.171 ms
+64 bytes from 128.54.70.238: icmp_seq=338 ttl=61 time=93.940 ms
+64 bytes from 128.54.70.238: icmp_seq=339 ttl=61 time=3.298 ms
+64 bytes from 128.54.70.238: icmp_seq=340 ttl=61 time=39.287 ms
+64 bytes from 128.54.70.238: icmp_seq=341 ttl=61 time=81.919 ms
+64 bytes from 128.54.70.238: icmp_seq=342 ttl=61 time=126.202 ms
+64 bytes from 128.54.70.238: icmp_seq=343 ttl=61 time=3.405 ms
+64 bytes from 128.54.70.238: icmp_seq=344 ttl=61 time=2.922 ms
+64 bytes from 128.54.70.238: icmp_seq=345 ttl=61 time=2.539 ms
+64 bytes from 128.54.70.238: icmp_seq=346 ttl=61 time=2.982 ms
+64 bytes from 128.54.70.238: icmp_seq=347 ttl=61 time=3.019 ms
+64 bytes from 128.54.70.238: icmp_seq=348 ttl=61 time=2.652 ms
+64 bytes from 128.54.70.238: icmp_seq=349 ttl=61 time=3.543 ms
+64 bytes from 128.54.70.238: icmp_seq=350 ttl=61 time=2.952 ms
+Request timeout for icmp_seq 351
+Request timeout for icmp_seq 352
+Request timeout for icmp_seq 353
+Request timeout for icmp_seq 354
+Request timeout for icmp_seq 355
+Request timeout for icmp_seq 356
+Request timeout for icmp_seq 357
+Request timeout for icmp_seq 358
+Request timeout for icmp_seq 359
+Request timeout for icmp_seq 360
+Request timeout for icmp_seq 361
+Request timeout for icmp_seq 362
+Request timeout for icmp_seq 363
+Request timeout for icmp_seq 364
+Request timeout for icmp_seq 365
+Request timeout for icmp_seq 366
+Request timeout for icmp_seq 367
+Request timeout for icmp_seq 368
+Request timeout for icmp_seq 369
+Request timeout for icmp_seq 370
+Request timeout for icmp_seq 371
+Request timeout for icmp_seq 372
+Request timeout for icmp_seq 373
+Request timeout for icmp_seq 374
+Request timeout for icmp_seq 375
+Request timeout for icmp_seq 376
+Request timeout for icmp_seq 377
+Request timeout for icmp_seq 378
+Request timeout for icmp_seq 379
+Request timeout for icmp_seq 380
+Request timeout for icmp_seq 381
+Request timeout for icmp_seq 382
+Request timeout for icmp_seq 383
+Request timeout for icmp_seq 384
+Request timeout for icmp_seq 385
+Request timeout for icmp_seq 386
+Request timeout for icmp_seq 387
+Request timeout for icmp_seq 388
+Request timeout for icmp_seq 389
+Request timeout for icmp_seq 390
+Request timeout for icmp_seq 391
+Request timeout for icmp_seq 392
+Request timeout for icmp_seq 393
+Request timeout for icmp_seq 394
+Request timeout for icmp_seq 395
+Request timeout for icmp_seq 396
+Request timeout for icmp_seq 397
+Request timeout for icmp_seq 398
+Request timeout for icmp_seq 399
+Request timeout for icmp_seq 400
+Request timeout for icmp_seq 401
+Request timeout for icmp_seq 402
+Request timeout for icmp_seq 403
+Request timeout for icmp_seq 404
+Request timeout for icmp_seq 405
+Request timeout for icmp_seq 406
+Request timeout for icmp_seq 407
+Request timeout for icmp_seq 408
+Request timeout for icmp_seq 409
+Request timeout for icmp_seq 410
+Request timeout for icmp_seq 411
+Request timeout for icmp_seq 412
+Request timeout for icmp_seq 413
+Request timeout for icmp_seq 414
+Request timeout for icmp_seq 415
+Request timeout for icmp_seq 416
+Request timeout for icmp_seq 417
+Request timeout for icmp_seq 418
+Request timeout for icmp_seq 419
+Request timeout for icmp_seq 420
+Request timeout for icmp_seq 421
+Request timeout for icmp_seq 422
+Request timeout for icmp_seq 423
+Request timeout for icmp_seq 424
+Request timeout for icmp_seq 425
+
+--- ieng6.ucsd.edu ping statistics ---
+427 packets transmitted, 351 packets received, 17.8% packet loss
+round-trip min/avg/max/stddev = 2.539/44.789/431.084/72.437 ms

@@ -79,7 +79,7 @@ output_filepath - name of output file
 def main(logs, write_mode, output_filepath):
     initial_mode = write_mode # so that write mode is on only for first file
     for (label, date, log_name, from_ip, encoding_type) in logs:
-        file_path = f"more-logs/{log_name}"
+        file_path = f"data/{log_name}"
         output_rows = process_file(file_path, encoding_type)
         if len(output_rows) == 0:
             print(f"WARNING: No csv rows found from {file_path}")
@@ -107,10 +107,10 @@ if __name__ == "__main__":
         # ('ping_CB', '6/3/2023', 'ping 107.77.227.186 - 2', "Unknown (IP of mobile hotspot)"),
         # ('ping_CA', '6/3/2023', 'ping ieng6.ucsd.edu - 2', "Unknown (IP of mobile hotspot)"),
         ('ping_BC', '8/3/2023', 'ieng6_ucsd_wifi.txt', 'Unknown (IP of UCSD wifi)', 'utf-8'),
-        ('ping_AC', '7/3/2023', 'full-route.txt',  "Unknown (IP of mobile hotspot)", 'utf-16'),
+        ('ping_AC', '7/3/2023', 'full-route3.txt',  "Unknown (IP of mobile hotspot)", 'utf-8'),
         # ('ping_AC', '7/3/2023', 'full-route2.txt',  "Unknown (IP of mobile hotspot)", 'utf-16'),
-        ('ping_AB', '7/3/2023', 'mobile-att-log.txt',  "Unknown (IP of mobile hotspot)", 'utf-16'),
+        ('ping_AB', '8/3/2023', 'mobile-att-log3.txt',  "Unknown (IP of mobile hotspot)", 'utf-8'),
         # ('ping_AB', '7/3/2023', 'mobile-att-log2.txt',  "Unknown (IP of mobile hotspot)", 'utf-16'),
     ]
-    OUTPUT_FILEPATH = "more-logs/latest-output.csv"
+    OUTPUT_FILEPATH = "output/csv/latest-output.csv"
     main(LOGS, True, OUTPUT_FILEPATH)

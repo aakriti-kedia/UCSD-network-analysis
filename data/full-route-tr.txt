@@ -1,0 +1,22 @@
+
+Tracing route to ieng6.ucsd.edu [128.54.70.238]
+over a maximum of 30 hops:
+
+  1     5 ms    12 ms    13 ms  192.168.247.195 
+  2    57 ms    42 ms    31 ms  172.26.96.161 
+  3    57 ms    28 ms    36 ms  107.72.227.228 
+  4    71 ms    40 ms    64 ms  12.83.188.161 
+  5    89 ms    37 ms    49 ms  12.83.179.49 
+  6    38 ms    77 ms    50 ms  12.123.132.137 
+  7    46 ms    37 ms    39 ms  192.205.37.146 
+  8     *        *        *     Request timed out.
+  9    56 ms    55 ms    45 ms  CENIC.ear1.LosAngeles1.Level3.net [4.35.156.66] 
+ 10    90 ms    70 ms    63 ms  dc-lax-agg8--lax-agg10-300g.cenic.net [137.164.11.71] 
+ 11    74 ms    44 ms    37 ms  dc-tus-agg8--lax-agg8-300g.cenic.net [137.164.11.83] 
+ 12    61 ms    34 ms    42 ms  sand1-agg-01--tus-agg8--300g--01.cenic.net [137.164.11.85] 
+ 13    73 ms    31 ms    37 ms  ucsd--sand1-agg-01--100g--01.cenic.net [137.164.23.177] 
+ 14    62 ms    41 ms    43 ms  nodem-core-6807-vlan2761-gw.ucsd.edu [132.239.254.163] 
+ 15    41 ms    31 ms    44 ms  adcom-7710-3-adcom-router-3-m-core-vlan935-gw.ucsd.edu [169.228.234.5] 
+ 16    51 ms    32 ms    41 ms  ieng6.ucsd.edu [128.54.70.238] 
+
+Trace complete.
