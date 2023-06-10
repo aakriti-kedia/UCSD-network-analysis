@@ -1,0 +1,76 @@
+(venv) aakritik@Aakritis-MacBook-Pro UCSD-network-analysis % ripe-atlas measurement-search --status stopped --type traceroute --search ucsd.edu --limit 1000
+
+Filters:
+  search: ucsd.edu
+  status__in: (4, 5, 6, 7)
+  type: traceroute
+
+     id    type                   description                       status      
+================================================================================
+1968535 traceroute              Cuba route test                    Stopped      
+1968578 traceroute              Cuba route test                    Stopped      
+1968703 traceroute              Cuba route test                     Failed      
+1969059 traceroute              Cuba route test                    Stopped      
+1969124 traceroute              Cuba route test                    Stopped      
+8418004 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+8598449 traceroute     Traceroute measurement to ucsd.edu           Failed      
+8600702 traceroute     Traceroute measurement to ucsd.edu           Failed      
+8601702 traceroute     Traceroute measurement to ucsd.edu           Failed      
+2899139 traceroute  Traceroute measurement to ieng6.ucsd.edu       Stopped      
+2899140 traceroute  Traceroute measurement to ieng6.ucsd.edu       Stopped      
+2924239 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+2927000 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+2928714 traceroute           Traceroute California                 Stopped      
+2931244 traceroute                top5k-cispa                      Stopped      
+3319221 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3319226 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3319275 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3320002 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3320395 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3320523 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3320550 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3322672 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3324239 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3331782 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3340061 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3346517 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3352888 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3366022 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+================================================================================
+                                                                Showing 29 of 29
+
+
+
+(venv) aakritik@Aakritis-MacBook-Pro UCSD-network-analysis %  ripe-atlas measurement-search --status stopped --type traceroute --search ucsd.edu --limit 1000 --stopped-after 2021-01-01
+
+Filters:
+  search: ucsd.edu
+  status__in: (4, 5, 6, 7)
+  type: traceroute
+  stop_time__gt: 2021-01-01 00:00:00
+
+     id    type                   description                       status      
+================================================================================
+2899139 traceroute  Traceroute measurement to ieng6.ucsd.edu       Stopped      
+2899140 traceroute  Traceroute measurement to ieng6.ucsd.edu       Stopped      
+2927000 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+2928714 traceroute           Traceroute California                 Stopped      
+2931244 traceroute                top5k-cispa                      Stopped      
+3319221 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3319226 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3319275 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3320002 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3320395 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3320523 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3320550 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3322672 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3324239 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3331782 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3340061 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3346517 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+3352888 traceroute     Traceroute measurement to ucsd.edu          Stopped      
+================================================================================
+                                                                Showing 18 of 18
+(venv) aakritik@Aakritis-MacBook-Pro UCSD-network-analysis % ripe-atlas report 2899139 --renderer traceroute                                                                     
+
+Error fetching measurement results: [403 Forbidden] Authentication credentials were not provided.
